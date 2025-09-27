@@ -40,7 +40,7 @@ const Goals = () => {
     <section id="goals" className="py-20 bg-background">
       <div className="container mx-auto px-4">
         <div className="max-w-6xl mx-auto">
-          <h2 className="text-4xl font-bold text-center mb-4 text-foreground">Career Goals</h2>
+          <h2 className="text-4xl text-display text-center mb-4 text-foreground uppercase tracking-wide">Career Goals</h2>
           <p className="text-center text-muted-foreground mb-12 text-lg">
             My roadmap to securing a position in chemical engineering before 2025
           </p>

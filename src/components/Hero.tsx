@@ -10,13 +10,13 @@ const Hero = () => {
     <section className="min-h-screen flex items-center justify-center bg-gradient-hero relative">
       <div className="container mx-auto px-4 text-center text-white">
         <div className="max-w-4xl mx-auto">
-          <h1 className="text-5xl md:text-7xl font-bold mb-6 animate-fade-in">
-            Vijay V
+          <h1 className="text-5xl md:text-7xl text-display mb-6 animate-fade-in tracking-tight">
+            VIJAY V
           </h1>
-          <p className="text-xl md:text-2xl mb-8 opacity-90 leading-relaxed">
+          <p className="text-xl md:text-2xl text-heading mb-8 opacity-90 leading-relaxed uppercase tracking-wide">
             Aspiring Chemical Engineer | Fluid Mechanics & Process Design Enthusiast
           </p>
-          <p className="text-lg md:text-xl mb-12 opacity-80 max-w-2xl mx-auto">
+          <p className="text-lg md:text-xl text-body mb-12 opacity-80 max-w-2xl mx-auto">
             3rd Year B.Tech Chemical Engineering Student at SASTRA Deemed University
           </p>
           

@@ -7,7 +7,7 @@ const Experience = () => {
     <section id="experience" className="py-20 bg-secondary/30">
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto">
-          <h2 className="text-4xl font-bold text-center mb-12 text-foreground">Experience</h2>
+          <h2 className="text-4xl text-display text-center mb-12 text-foreground uppercase tracking-wide">Experience</h2>
           
           <Card className="shadow-elevated bg-gradient-card border-0">
             <CardHeader>

@@ -58,7 +58,7 @@ const Skills = () => {
     <section id="skills" className="py-20 bg-background">
       <div className="container mx-auto px-4">
         <div className="max-w-6xl mx-auto">
-          <h2 className="text-4xl font-bold text-center mb-12 text-foreground">Skills & Expertise</h2>
+          <h2 className="text-4xl text-display text-center mb-12 text-foreground uppercase tracking-wide">Skills & Expertise</h2>
           
           <div className="grid md:grid-cols-2 lg:grid-cols-2 gap-8">
             {skillCategories.map((category, index) => (
