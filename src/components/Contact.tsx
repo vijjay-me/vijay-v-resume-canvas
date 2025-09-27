@@ -45,15 +45,15 @@ const Contact = () => {
     <section id="contact" className="py-20 bg-secondary/30">
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto">
-          <h2 className="text-4xl text-display text-center mb-4 text-foreground uppercase tracking-wide">Get In Touch</h2>
-          <p className="text-center text-muted-foreground mb-12 text-lg">
+          <h2 className="text-4xl text-display text-center mb-4 text-foreground">Get In Touch</h2>
+          <p className="text-center text-body text-muted-foreground mb-12 text-lg">
             Let's connect and explore opportunities in chemical engineering
           </p>
           
           <div className="grid md:grid-cols-2 gap-8">
             <Card className="shadow-card bg-gradient-card border-0">
               <CardContent className="p-8">
-                <h3 className="text-2xl font-semibold text-foreground mb-6">Contact Information</h3>
+                <h3 className="text-2xl text-subheading text-foreground mb-6">Contact Information</h3>
                 <div className="space-y-4">
                   {contactMethods.map((method, index) => (
                     <div key={index} className="flex items-center space-x-4">
@@ -81,8 +81,8 @@ const Contact = () => {
 
             <Card className="shadow-elevated bg-gradient-card border-0">
               <CardContent className="p-8">
-                <h3 className="text-2xl font-semibold text-foreground mb-6">Let's Connect</h3>
-                <p className="text-muted-foreground mb-6 leading-relaxed">
+                <h3 className="text-2xl text-subheading text-foreground mb-6">Let's Connect</h3>
+                <p className="text-body text-muted-foreground mb-6 leading-relaxed">
                   I'm actively seeking internship opportunities and would love to discuss 
                   how my passion for chemical engineering and process optimization can 
                   contribute to your organization.

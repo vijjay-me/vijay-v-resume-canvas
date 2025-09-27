@@ -40,8 +40,8 @@ const Goals = () => {
     <section id="goals" className="py-20 bg-background">
       <div className="container mx-auto px-4">
         <div className="max-w-6xl mx-auto">
-          <h2 className="text-4xl text-display text-center mb-4 text-foreground uppercase tracking-wide">Career Goals</h2>
-          <p className="text-center text-muted-foreground mb-12 text-lg">
+          <h2 className="text-4xl text-display text-center mb-4 text-foreground">Career Goals</h2>
+          <p className="text-center text-body text-muted-foreground mb-12 text-lg">
             My roadmap to securing a position in chemical engineering before 2025
           </p>
           
@@ -78,8 +78,8 @@ const Goals = () => {
 
           <Card className="mt-8 shadow-elevated bg-gradient-hero border-0">
             <CardContent className="p-8 text-center">
-              <h3 className="text-2xl font-bold text-white mb-4">Vision Statement</h3>
-              <p className="text-white/90 text-lg leading-relaxed max-w-3xl mx-auto">
+              <h3 className="text-2xl text-subheading text-white mb-4">Vision Statement</h3>
+              <p className="text-body text-white/90 text-lg leading-relaxed max-w-3xl mx-auto">
                 To become a leading chemical engineer who bridges traditional process engineering 
                 with cutting-edge AI and automation technologies, contributing to sustainable 
                 industrial practices and innovative solutions for global challenges.
