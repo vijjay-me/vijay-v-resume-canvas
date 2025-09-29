@@ -14,8 +14,8 @@ const Contact = () => {
     {
       icon: <Linkedin className="h-6 w-6" />,
       label: "LinkedIn",
-      value: "linkedin.com/in/vijayv",
-      link: "https://linkedin.com/in/vijayv",
+      value: "linkedin.com/in/vijay-v-a23431371",
+      link: "https://www.linkedin.com/in/vijay-v-a23431371",
       primary: true
     },
     {
@@ -28,8 +28,8 @@ const Contact = () => {
     {
       icon: <Phone className="h-6 w-6" />,
       label: "Phone",
-      value: "+91 XXX XXX XXXX",
-      link: "tel:+91XXXXXXXXXX",
+      value: "+91 7708310183",
+      link: "tel:+917708310183",
       primary: false
     },
     {
@@ -102,7 +102,7 @@ const Contact = () => {
                     <Button 
                       variant="outline" 
                       className="flex-1 shadow-soft"
-                      onClick={() => window.open('https://linkedin.com/in/vijayv', '_blank')}
+                      onClick={() => window.open('https://www.linkedin.com/in/vijay-v-a23431371', '_blank')}
                     >
                       <Linkedin className="mr-2 h-4 w-4" />
                       LinkedIn
