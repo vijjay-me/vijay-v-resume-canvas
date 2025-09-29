@@ -7,8 +7,8 @@ const Contact = () => {
     {
       icon: <Mail className="h-6 w-6" />,
       label: "Email",
-      value: "vijay.v@example.com",
-      link: "mailto:vijay.v@example.com",
+      value: "vijaysanthoshi652@gmail.com",
+      link: "mailto:vijaysanthoshi652@gmail.com",
       primary: true
     },
     {
@@ -45,7 +45,7 @@ const Contact = () => {
     <section id="contact" className="py-20 bg-secondary/30">
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto">
-          <h2 className="text-4xl text-display text-center mb-4 text-foreground">Get In Touch</h2>
+          <h2 className="text-5xl font-bold text-display text-center mb-4 text-foreground">Get In Touch</h2>
           <p className="text-center text-body text-muted-foreground mb-12 text-lg">
             Let's connect and explore opportunities in chemical engineering
           </p>
@@ -92,7 +92,7 @@ const Contact = () => {
                   <Button 
                     className="w-full shadow-soft" 
                     size="lg"
-                    onClick={() => window.open('mailto:vijay.v@example.com', '_blank')}
+                    onClick={() => window.open('mailto:vijaysanthoshi652@gmail.com', '_blank')}
                   >
                     <Send className="mr-2 h-4 w-4" />
                     Send Email
